@@ -43,8 +43,7 @@ int FirstOcurrance(int arr[], int size, int key){
 int LastOcurrance(int arr[], int size, int key){
     int s = 0;
     int e = size - 1;
-    int ans = -1;
-    int mid = s + (e-s)/2;
+    int ans = -1;    int mid = s + (e-s)/2;
     while (s <= e)
     {
        if (key == arr[mid])
