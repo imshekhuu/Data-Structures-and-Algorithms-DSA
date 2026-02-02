@@ -66,6 +66,7 @@ Each folder includes:
 - C
 - C++
 - Python
+- Java
 
 Language choice depends on the problem and performance requirements.
 
