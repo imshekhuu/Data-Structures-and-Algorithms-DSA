@@ -20,6 +20,7 @@ int main() {
 void SelectionSort(int arr[], int size) {
     for (int i = 0; i < size - 1; i++) {
         int minIndex = i;
+        int temp;
 
         for (int j = i + 1; j < size; j++) {
             if (arr[j] < arr[minIndex]) {
@@ -28,5 +29,8 @@ void SelectionSort(int arr[], int size) {
         }
 
         swap(arr[minIndex], arr[i]);
+        // arr[minIndex] = temp;
+        // arr[i] = arr[minIndex];
+        // temp = arr[i];
     }
 }
