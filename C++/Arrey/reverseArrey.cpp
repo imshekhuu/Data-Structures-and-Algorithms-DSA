@@ -33,7 +33,7 @@ int main(){
     arr.push_back(5);
     arr.push_back(4);
 
-    vector<int> and = reverse(arr);
+    vector<int> ans = reverse(arr);
 
     cout << "Reversed arrey";
     print(ans);
